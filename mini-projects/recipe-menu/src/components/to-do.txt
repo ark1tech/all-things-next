@@ -1,0 +1,10 @@
+To-do list
+
+1. Implement search function
+2. Implement randomize button
+3. Implement recipe of the day
+4. Implement sort function 
+5. Implement recent recipes 
+6. Implement favorites function
+7. Design a dashboard component of sorts
+8. Simplify te heart button
