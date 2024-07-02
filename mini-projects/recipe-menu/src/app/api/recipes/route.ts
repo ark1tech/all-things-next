@@ -3,6 +3,7 @@ import { RECIPE_FILEPATH } from '@/constants/filepath/recipe_json';
 import fs from 'fs';
 
 export async function GET() {
+
     try {
         const jsonData = fs.readFileSync(RECIPE_FILEPATH, 'utf-8');
         const recipes = JSON.parse(jsonData);
