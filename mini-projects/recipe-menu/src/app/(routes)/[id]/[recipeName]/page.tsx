@@ -1,9 +1,11 @@
 'use client';
 
+// Framework
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+// Icons
 import { FaChevronLeft } from 'react-icons/fa6';
 import { LuAlarmClock } from 'react-icons/lu';
 import { BiBowlRice } from 'react-icons/bi';
@@ -11,9 +13,11 @@ import { AiOutlineFire } from 'react-icons/ai';
 import { MdOutlineFoodBank } from 'react-icons/md';
 import { BsBoxArrowUp } from 'react-icons/bs';
 
+// Types
 import { Recipe } from '@/types/recipe';
 import { URLParams } from '@/types/params';
 
+// Components
 import HeartButton from '@components/Recipes/_atoms/buttons/HeartButton/HeartButton_2';
 import IngredientCheck from '@components/Recipes/_atoms/checklist/IngredientsCheck';
 import InstructionCheck from '@components/Recipes/_atoms/checklist/InstructionsCheck';

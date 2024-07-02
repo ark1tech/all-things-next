@@ -1,10 +1,14 @@
 'use client';
 
+// Framework
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+
+// Styling
 import './RecipeList.css';
 
+// Icons
 import { FaStar } from 'react-icons/fa6';
 import { IoPerson } from 'react-icons/io5';
 import { LuAlarmClock } from 'react-icons/lu';
@@ -13,8 +17,10 @@ import { AiOutlineFire } from 'react-icons/ai';
 import { MdOutlineFoodBank } from 'react-icons/md';
 import { MdSortByAlpha } from 'react-icons/md';
 
+// Types
 import { Recipe } from '@/types/recipe';
 
+// Components
 import HeartButton from '@components/Recipes/_atoms/buttons/HeartButton/HeartButton';
 import RecipeOfTheDay from '@components/Recipes/1_Home/RecipeOfTheDay';
 import RecentRecipes from '@components/Recipes/1_Home/RecentRecipes';
